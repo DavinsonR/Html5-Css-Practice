@@ -11,5 +11,14 @@ h1 {
 .cover {
     height: 400px;
     color: white;
-    background-color: blueviolet;
+    background-image: url("https://cdn.glitch.global/f514341b-360b-442b-8f5d-ca96bf7fe534/resize-data-analitycs.jpg?v=1690239491368");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+}
+
+.card {
+    border: 0 in !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.06), 2px 4px -1px rgba(0,0,0,0.06);
 }
