@@ -1,11 +1,15 @@
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Overpass', sans-serif;
     margin: auto;
 }
 
 h1 {
-    font-style: Helvetica;
+    font-family: 'Bebas Neue', sans-serif;
     color: azure;
+}
+
+h5 {
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .cover {
@@ -18,7 +22,20 @@ h1 {
     background-blend-mode: darken;
 }
 
+.cover-small {
+    height: 200px;
+}
+
 .card {
     border: 0 in !important;
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.06), 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.card-tittle {
+    font-family: 'Bebas Neue', sans-serif;
+    min-height: 3rem;
+}
+
+.card-text {
+    min-height: 10rem;
 }
